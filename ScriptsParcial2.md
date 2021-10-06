@@ -110,5 +110,5 @@ En donde en la configuración de provision se colacan los comandos necesarios
 ## Rich rules
 Utilizando Rich rules para acivar el puerto 80 para el servicio httpd se usa lo siguiente:
 ```bash
-firewall-cmd --add-rich-rule='rule family="ipv4" source address="209.191.200.3" port port=8080 protocol=tcp accept'
+firewall-cmd --add-rich-rule='rule family="ipv4" source address="209.191.200.3" port port=80 protocol=tcp accept'
 ```
